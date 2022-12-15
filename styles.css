@@ -1,0 +1,82 @@
+/* підключення шрифтів */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap");
+
+/* налаштування видимої частини вікна браузера */
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #e3e9f9;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* налаштування основного контейнера */
+.wrapper {
+  background: white;
+  box-shadow: 0px 23px 44px #cad0e0;
+  border-radius: 10px;
+  min-width: 575px;
+  padding: 70px 35px 30px;
+}
+
+/* налаштування заголовку */
+h1 {
+  text-align: center;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  color: #6778e8;
+  margin-bottom: 12px;
+}
+
+/* налаштування опису */
+p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* налаштування загальної обгортки */
+.fields {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* налаштування для всіх полів форми */
+input[type="text"] {
+  color: #6778e8;
+  font-weight: 900;
+  font-size: 3.75rem;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  border: none;
+  text-align: center;
+  width: 80px;
+  background-color: #f0f3fa;
+  height: 85px;
+}
+
+/* налаштування кнопки */
+button {
+  background: linear-gradient(93.32deg, #8d9eff -10.93%, #a674fb 113.82%);
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  height: 75px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
